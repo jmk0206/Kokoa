@@ -1,0 +1,5 @@
+# .DS_Store가 보이지 않도록 설정
+.DS_Store
+
+# 스크린샷 폴더 무시
+# /screenshots
