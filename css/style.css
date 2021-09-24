@@ -8,6 +8,7 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 
 /* Screens Folder */
 @import "screens/login.css";
@@ -18,7 +19,9 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-
+.main-screen {
+	padding: 0 var(--horizontal-space);
+}
 
 
 
