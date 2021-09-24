@@ -3,13 +3,18 @@
 @import "reset.css"; /* import를 이용해 reset.css 추가 */
 @import "variables.css"; /* 색상 css */
 
-/* Components */
+/* Components Folder */
 @import "components/status-bar.css"; /* 제일 상단 상태표 */
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 
-/* Screens */
+/* Screens Folder */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
+	color: #2e363e;
 	font-family: 'Open Sans', sans-serif;
 }
 
